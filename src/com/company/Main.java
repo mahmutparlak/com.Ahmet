@@ -6,5 +6,6 @@ public class Main {
         System.out.println("Kaan");
         System.out.println("Kivircik");
         System.out.println("problem solved");
+        System.out.println("Uzun");
     }
 }
