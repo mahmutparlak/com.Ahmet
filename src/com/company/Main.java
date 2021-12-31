@@ -8,6 +8,6 @@ public class Main {
         System.out.println("problem solved");
         System.out.println("Maho");
         System.out.println("Kiro");
-        System.out.println("Tayyip top olsun");
+        System.out.println("Tayyip top olsun. Bahceli de zaten top");
     }
 }
