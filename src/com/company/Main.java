@@ -9,5 +9,7 @@ public class Main {
         System.out.println("Maho");
         System.out.println("Kiro");
         System.out.println("Fetullah kazanacak");
+
+        System.out.println("Herhal tayyip bu sene olur");
     }
 }
