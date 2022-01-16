@@ -7,6 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println(removeDuplicate("AAHSHSFFVDHY"));
+        System.out.println("I did it");
     }
 
     public static StringBuffer removeDuplicate(String duplicateString) {
