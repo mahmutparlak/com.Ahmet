@@ -1,31 +1,31 @@
 package com.company;
 
+import java.util.LinkedHashSet;
+import java.util.Set;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Kaan");
-        System.out.println("Kivircik");
-        System.out.println("problem solved");
-        System.out.println("Maho");
-        System.out.println("Kiro");
-        System.out.println("Fetullah kazanacak");
-
-        System.out.println("Herhal tayyip bu sene olur");
-        System.out.println("Tayyip top olsun. Bahceli de zaten top");
-
-        System.out.println(test());
-        test2();
+        System.out.println(removeDuplicate("AAHSHSFFVDHY"));
     }
 
-    public static int i;
+    public static StringBuffer removeDuplicate(String duplicateString) {
 
-    public static int test() {
-        i = 10;
-        return i;
-    }
+        char[] chars = duplicateString.toCharArray();
 
-    public static void test2() {
-        int j = 30;
-        System.out.println(j+i);
+        Set<Character> charSet = new LinkedHashSet<>();
+
+        for (char c : chars) {
+            charSet.add(c);
+        }
+
+        System.out.println(charSet);
+
+        StringBuffer clearString = new StringBuffer();
+
+        for (Character character : charSet) {
+            clearString.append(character);
+        }
+        return clearString;
     }
 }
